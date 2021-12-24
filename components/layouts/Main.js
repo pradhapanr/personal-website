@@ -20,6 +20,10 @@ const Main = ({ children, router }) => {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Prad Homepage" />
         <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://images.wallpaperscraft.com/image/single/mask_totem_smoke_192795_2560x1080.jpg"
+        />
         <title>Prad</title>
       </Head>
 
