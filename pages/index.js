@@ -221,10 +221,6 @@ const Home = () => {
             <BioYear>2021</BioYear>
             Currently working at ApplyBoard as a Software Engineering intern
           </BioSection>
-          <BioSection>
-            <BioYear>2022</BioYear>
-            Incoming Software Development Intern at Amazon
-          </BioSection>
         </Section>
 
         <Section delay={0.3}>
