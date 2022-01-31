@@ -51,15 +51,14 @@ const Home = () => {
           textAlign="center"
           bg="whiteAlpha.200"
         >
-          Hello, I&apos;m a full-stack developer based in Ontario!
+          Hi there, I'm a full stack developer from Ontario!
         </Box>
-
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Pradhapan Rajendran
             </Heading>
-            <p>Software Engineer, currently with ApplyBoard</p>
+            <p>Software Engineer, going to Amazon this summer!</p>
           </Box>
           <Box
             flexShrink={0}
@@ -85,9 +84,9 @@ const Home = () => {
             About
           </Heading>
           <Paragraph>
-            Hi there, my name's Pradhapan but I usually go by <b>Prad</b>. I'm a
-            third year student at the University of Guelph currently in Honours
-            Computer Science and pursuing a minor in Mathematics.
+            Hi there, my name is Pradhapan but I usually go by <b>Prad</b>. I am
+            a third year student at the University of Guelph in Honours Computer
+            Science, also pursuing a minor in mathematics.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/projects">
@@ -219,11 +218,11 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Currently working at ApplyBoard as a Software Engineering intern
+            Worked at ApplyBoard as a Software Engineering intern
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Starting my internship at Amazon Web Services in the summer
+            Starting my SDE internship at Amazon this summer
           </BioSection>
         </Section>
 
